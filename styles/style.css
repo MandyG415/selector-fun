@@ -2,31 +2,48 @@
 
 
 /* Give the header element a background color */
-
+header {
+    background-color: aqua;
+}
 
 /* Center everything in the header and footer */
-
+header, footer {
+    text-align: center;
+}
 
 /* All text to Helvetica */
-
+* {
+    font-family: Helvetica;
+}
 
 /* All links default color is gray*/
-
+a:link {
+    color:gray;
+}
 
 /* All links on hover color red*/
-
+a:hover {
+    color:red;
+}
 
 /* All Links visted color black*/
-
+a:visited {
+    color:black;
+}
 
 /* Footer disclaimer text to be .5 em*/
-
+footer {
+    font-size: .5em;
+}
 
 /* Remove bullet points from header navigation links */
-
+header > nav> ul {
+    list-style-type: None;
+    padding: 0;
+    margin: 0;
+}
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
-
 
 /* All Post's Comment Links Show Underline on Hover */
 
